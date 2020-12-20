@@ -48,7 +48,7 @@ const Sidebar = ({ sidebarOpen, closeSidebar}) => {
           <a href="#">Requests</a>
         </div>
         <div className="sidebar__link">
-          <i className="fa fa-sign_out"></i>
+          <i className="fa fa-sign-out"></i>
           <a href="#">Leave policy</a>
         </div>
         <div className="sidebar__link">

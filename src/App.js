@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import Main from './components/main/Main';
 import Navbar from './components/navbar/Navbar';
 import Sidebar from './components/sidebar/Sidebar';
 
@@ -16,9 +17,10 @@ function App() {
   return (
     <div className="container">
       <Navbar sidebarOpen={sidebarOpen} openSidebar={openSidebar}/>
-      <Sidebar sidebarOpen={sidebarOpen} openSidebar={openSidebar}/>
+      <Main />
 
-      <h1>React Dashboard</h1>
+      <Sidebar sidebarOpen={sidebarOpen} closeSidebar={closeSidebar}/>
+
     </div>
   );
 }
