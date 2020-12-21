@@ -6,7 +6,7 @@ import "./i18n";
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
-  <BrowserRouter basename="/react-dashboard/preview">
+  <BrowserRouter >
     <App />
   </BrowserRouter>
 , document.getElementById('root'));
