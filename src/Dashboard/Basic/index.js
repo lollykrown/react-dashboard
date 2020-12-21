@@ -13,7 +13,7 @@ import {
     TabPane,
 } from 'reactstrap';
 
-import PageTitle from '../../../Layout/AppMain/PageTitle';
+import PageTitle from '../../Layout/AppMain/PageTitle';
 
 import {
     AreaChart, Area, Line,
@@ -36,10 +36,10 @@ import {
 
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 
-import avatar1 from '../../../assets/utils/images/avatars/1.jpg';
-import avatar2 from '../../../assets/utils/images/avatars/2.jpg';
-import avatar3 from '../../../assets/utils/images/avatars/3.jpg';
-import avatar4 from '../../../assets/utils/images/avatars/4.jpg';
+import avatar1 from '../../assets/utils/images/avatars/1.jpg';
+import avatar2 from '../../assets/utils/images/avatars/2.jpg';
+import avatar3 from '../../assets/utils/images/avatars/3.jpg';
+import avatar4 from '../../assets/utils/images/avatars/4.jpg';
 
 
 const data = [
@@ -145,7 +145,7 @@ export default class AnalyticsDashboard1 extends Component {
                                                                 <div className="widget-content-wrapper">
                                                                     <div className="widget-content-left mr-3">
                                                                         <div className="widget-numbers fsize-3 text-muted">
-                                                                            63%
+                                                                            88%
                                                                         </div>
                                                                     </div>
                                                                     <div className="widget-content-right">
@@ -158,7 +158,7 @@ export default class AnalyticsDashboard1 extends Component {
                                                                     <Progress
                                                                         className="progress-bar-sm progress-bar-animated-alt"
                                                                         color="danger"
-                                                                        value="63"/>
+                                                                        value="88"/>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -220,7 +220,7 @@ export default class AnalyticsDashboard1 extends Component {
                                                                 <div className="widget-content-wrapper">
                                                                     <div className="widget-content-left mr-3">
                                                                         <div className="widget-numbers fsize-3 text-muted">
-                                                                            41%
+                                                                            49%
                                                                         </div>
                                                                     </div>
                                                                     <div className="widget-content-right">
@@ -233,7 +233,7 @@ export default class AnalyticsDashboard1 extends Component {
                                                                     <Progress
                                                                         className="progress-bar-sm progress-bar-animated-alt"
                                                                         color="warning"
-                                                                        value="41"/>
+                                                                        value="49"/>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -456,7 +456,7 @@ export default class AnalyticsDashboard1 extends Component {
                                                 <i className="lnr-cog icon-gradient bg-arielle-smile"/>
                                             </div>
                                             <div className="widget-numbers">
-                                                87,4
+                                                87.4
                                             </div>
                                             <div className="widget-subheading">
                                                 Reports Generated
@@ -480,7 +480,7 @@ export default class AnalyticsDashboard1 extends Component {
                                                 Profiles
                                             </div>
                                             <div className="widget-description text-white">
-                                                <span className="pr-1">62,7%</span>
+                                                <span className="pr-1">62.7%</span>
                                                 <FontAwesomeIcon icon={faArrowLeft}/>
                                             </div>
                                         </div>

@@ -7,9 +7,9 @@ import BasicDashboard from './Basic/';
 
 // Layout
 
-import AppHeader from '../../Layout/AppHeader/';
-import AppSidebar from '../../Layout/AppSidebar/';
-import AppFooter from '../../Layout/AppFooter/';
+import AppHeader from '../Layout/AppHeader/';
+import AppSidebar from '../Layout/AppSidebar/';
+import AppFooter from '../Layout/AppFooter/';
 
 const Dashboards = () => (
     <Fragment>

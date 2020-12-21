@@ -5,7 +5,7 @@ import {
     ToastContainer,
 } from 'react-toastify';
 
-const Dashboards = lazy(() => import('../../DemoPages/Dashboards'));
+const Dashboards = lazy(() => import('../../Dashboard'));
 
 const AppMain = () => {
 
